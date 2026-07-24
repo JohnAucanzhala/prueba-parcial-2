@@ -17,8 +17,6 @@ public final class Appointment {
         this.patientName = patientName;
         this.specialty = specialty;
         this.costUsd = costUsd;
-        // Copia defensiva en el constructor: si alguien sigue teniendo una referencia
-        // a la lista original y la modifica despues, el objeto Appointment no se entera.
         this.notifyEmails = (notifyEmails == null)
                 ? new ArrayList<>()
                 : new ArrayList<>(notifyEmails);
