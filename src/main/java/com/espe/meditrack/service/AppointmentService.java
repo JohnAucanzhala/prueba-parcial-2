@@ -13,11 +13,11 @@ public class AppointmentService {
     private final List<Appointment> appointments;
     public AppointmentService() {
         this.appointments = Arrays.asList(
-                new Appointment("A1", "Juan Perez", "Cardiologia", 25.0, Arrays.asList("juan@mail.com")),
+                new Appointment("A1", "John Aucanzhala", "Tecnologias", 25.0, Arrays.asList("jaaucanzhala@mail.com")),
                 new Appointment("A2", "Maria Lopez", "Pediatria", 15.0, Arrays.asList("maria@mail.com", "papa@mail.com")),
                 new Appointment("A3", "Carlos Ruiz", "Dermatologia", 30.0, Arrays.asList("carlos@mail.com")),
-                new Appointment("A4", "Ana Torres", "Neurologia", 0.0, Arrays.asList("ana@mail.com")),      // invalida: costo 0
-                new Appointment("A5", "Luis Vera", "Oftalmologia", 20.0, Collections.emptyList())            // invalida: sin correos
+                new Appointment("A4", "Ana Torres", "Neurologia", 0.0, Arrays.asList("ana@mail.com")),
+                new Appointment("A5", "Luis Vera", "Oftalmologia", 20.0, Collections.emptyList())
         );
     }
 
